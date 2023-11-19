@@ -4,48 +4,48 @@
 
 
 @media (prefers-color-scheme: dark) { :root {
-  
+
   /* These colours are (mainly) used by the
      Container Tabs Plugin */
-  --uc-identity-colour-blue:      #7ED6DF;
-  --uc-identity-colour-turquoise: #55E6C1;
-  --uc-identity-colour-green:     #B8E994;
-  --uc-identity-colour-yellow:    #F7D794;
-  --uc-identity-colour-orange:    #F19066;
-  --uc-identity-colour-red:       #FC5C65;
-  --uc-identity-colour-pink:      #F78FB3;
-  --uc-identity-colour-purple:    #786FA6;
-  
+  --uc-identity-colour-blue:      #e0def4; /* text */
+  --uc-identity-colour-turquoise: #9ccfd8; /* foam */
+  --uc-identity-colour-green:     #31748f; /* pine */
+  --uc-identity-colour-yellow:    #f6c177; /* gold */
+  --uc-identity-colour-orange:    #ebbcba; /* rose */
+  --uc-identity-colour-red:       #eb6f92; /* love */
+  --uc-identity-colour-pink:      #908caa; /* subtle */
+  --uc-identity-colour-purple:    #c4a7e7; /* iris */
+
   /*  Cascades main Colour Scheme */
-  --uc-base-colour:               #1E2021;
-  --uc-highlight-colour:          #191B1C;
-  --uc-inverted-colour:           #FAFAFC;
-  --uc-muted-colour:              #AAAAAC;
-  --uc-accent-colour:             var(--uc-identity-colour-purple);
-  
+  --uc-base-colour:               #191724; /* base */
+  --uc-highlight-colour:          #1f1d2e; /* surface */
+  --uc-inverted-colour:           #e0def4; /* text */
+  --uc-muted-colour:              #6e6a86; /* muted */
+  --uc-accent-colour:             var(--uc-identity-colour-orange);
+
 }}
 
 
 @media (prefers-color-scheme: light) { :root {
-  
+
   /* These colours are (mainly) used by the
      Container Tabs Plugin */
-  --uc-identity-colour-blue:      #1D65F5;
-  --uc-identity-colour-turquoise: #209FB5;
-  --uc-identity-colour-green:     #40A02B;
-  --uc-identity-colour-yellow:    #E49320;
-  --uc-identity-colour-orange:    #FE640B;
-  --uc-identity-colour-red:       #FC5C65;
-  --uc-identity-colour-pink:      #EC83D0;
-  --uc-identity-colour-purple:    #822FEE;
-  
+  --uc-identity-colour-blue:      #575279;
+  --uc-identity-colour-turquoise: #56949f;
+  --uc-identity-colour-green:     #286983;
+  --uc-identity-colour-yellow:    #ea9d34;
+  --uc-identity-colour-orange:    #d7827e;
+  --uc-identity-colour-red:       #b4637a;
+  --uc-identity-colour-pink:      #797593;
+  --uc-identity-colour-purple:    #907aa9;
+
   /*  Cascades main Colour Scheme */
-  --uc-base-colour:               #FAFAFC;
-  --uc-highlight-colour:          #DADADC;
-  --uc-inverted-colour:           #1E2021;
-  --uc-muted-colour:              #191B1C;
+  --uc-base-colour:               #faf4ed; /* base */
+  --uc-highlight-colour:          #f2e9e1; /* overlay */
+  --uc-inverted-colour:           #575279; /* text */
+  --uc-muted-colour:              #9893a5; /* muted */
   --uc-accent-colour:             var(--uc-identity-colour-purple);
-  
+
 }}
 
 
